@@ -28,6 +28,7 @@ EmployeePtr searchEmployeeByPhone(ConstEmployeePtr ptr, int tableSize, char* tar
             return (EmployeePtr) ptr;
         }
     }
+    return NULL;
 }
 
 EmployeePtr searchEmployeeBySalary(ConstEmployeePtr ptr, int tableSize, double targetSalary) {
@@ -37,4 +38,5 @@ EmployeePtr searchEmployeeBySalary(ConstEmployeePtr ptr, int tableSize, double t
             return (EmployeePtr) ptr;
         }
     }
+    return NULL;
 }
